@@ -1,15 +1,14 @@
 -- How to see maven version
-mvn --version
+	mvn --version
 
 -- How to create maven project using command prompt
-mvn archetype:generate -DgroupId=ToolsQA -DartifactId=DemoMavenProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+	mvn archetype:generate -DgroupId=ToolsQA -DartifactId=DemoMavenProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 -- How to clean and build maven project
-mvn clean install
-or
-mvn clean package
-
+	mvn clean install
+	(or)
+	mvn clean package
 
 -- How to clean and build maven project and skip the test cases
-mvn clean install -DskipTests
+	mvn clean install -DskipTests
 
