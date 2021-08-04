@@ -1,0 +1,47 @@
+-- Global Configuration
+	git config --global user.name "Ramanjaneyulu Dayyala"
+	git config --global user.email "anjikdk@gmail.com"
+
+-- How to see the global configuration
+	git config --list
+
+-- How to change github url
+	git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+-- How to see the github url in gitbash
+	git remote -v
+
+	without network
+		git config --get remote.origin.url
+	with network
+		git remote show origin
+	
+-- How to clone the project
+	git clone https://github.com/anjikdk/springboot_h2db_example.git
+
+-- How to add files into git
+	git add filename
+	(or)
+	git add . (It will add entire files and folders)
+
+-- How to commit files into git
+	git commit -m 'commit meesage'
+
+-- How to push files into git remote
+	git push
+
+-- How to pull files from git remote to git local
+	git pull
+
+-- How to add remote url in local git
+	git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+-- How to revert commit changes from local git but changes should be in staging area
+	git reset --soft head^1
+
+-- How to revert commit changes from local git and don't care about changes
+	git reset --hard head^1
+	
+-- How to see git commits
+	git log
+
