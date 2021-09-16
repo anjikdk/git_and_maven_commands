@@ -4,6 +4,9 @@
 
 -- How to see the global configuration
 	git config --list
+	
+-- How to add remote url in local git
+	git remote add origin https://github.com/USERNAME/REPOSITORY.git
 
 -- How to change github url
 	git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
@@ -18,6 +21,12 @@
 	
 -- How to clone the project
 	git clone https://github.com/anjikdk/springboot_h2db_example.git
+	
+-- How to create branch
+	git branch <branch name>
+	
+-- How to delete branch from local
+	git branch -d <branch name>
 
 -- How to add files into git
 	git add filename
@@ -33,8 +42,6 @@
 -- How to pull files from git remote to git local
 	git pull
 
--- How to add remote url in local git
-	git remote add origin https://github.com/USERNAME/REPOSITORY.git
 
 -- How to revert commit changes from local git but changes should be in staging area
 	git reset --soft head^1
@@ -44,4 +51,7 @@
 	
 -- How to see git commits
 	git log
+	
+-- How to reset/revert git merge from local
+	git reset --merge head^1
 
